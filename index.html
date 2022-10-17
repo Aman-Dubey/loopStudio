@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
+    <script src="/js/script.js" defer></script>
   <link href="/css/output.css" rel="stylesheet">
 </head>
 <body>
@@ -52,10 +53,31 @@
                 </div>
 
                 <!-- todo Hamburger -->
+                <div class="md:hidden">
+                    <button
+                      id="menu-btn"
+                      type="button"
+                      class="z-40 block hamburger md:hidden focus:outline-none"
+                    >
+                      <span class="hamburger-top"></span>
+                      <span class="hamburger-middle"></span>
+                      <span class="hamburger-bottom"></span>
+                    </button>
+                  </div>
 
             </nav>
             
             <!-- todo Mobile view -->
+            <div
+                id="menu"
+                class="absolute top-0 bottom-0 left-0 hidden flex-col self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black"
+                >
+                <a href="#" class="hover:text-pink-500">About</a>
+                <a href="#" class="hover:text-pink-500">Careers</a>
+                <a href="#" class="hover:text-pink-500">Events</a>
+                <a href="#" class="hover:text-pink-500">Products</a>
+                <a href="#" class="hover:text-pink-500">Support</a>
+            </div>
 
             <!-- Impressice Expreience that deliver -->
 
@@ -64,5 +86,217 @@
             </div>     
         </div>
     </section>
+
+    <!-- Feature section -->
+    <section id="feature">
+        <div class="relative container max-w-6xl mx-auto flex flex-col md:flex-row mt-32 mb-10 p-6">
+            <img src="./images/desktop/image-interactive.jpg" alt="" srcset="">
+            <div class="md:absolute flex flex-col items-center md:items-start top-48 md:right-0 mt-10 mb-6 md:pt-20 md:pl-16 bg-white pr-0 text-gray-900">
+                <p class="max-w-lg mx-auto text-4xl md:text-5xl md:text-left text-center">THE LEADER IN INTERACTIVE VR</p>
+                <p class="max-w-md text-center md:text-left mt-8 mb-6">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Out creation and see all button -->
+    <div class="flex justify-between md:mt-10 items-center text-gray-900 uppercase px-2 py-4 max-w-6xl mx-auto">
+        <p class="max-w-lg mx-auto md:mx-3 text-4xl md:text-5xl md:text-left text-center">Out creations</p>
+        <button class="hidden btn" >SEE ALL</button>
+    </div>
+
+    <!-- Creation section -->
+    <section class="creation">
+        
+            <!-- Container 1 -->
+            <div class="container-item">
+                <!-- Item-1 -->
+                <div class="item group">
+                    <!-- Desktop -->
+                    <img src="./images/desktop/image-deep-earth.jpg" alt="" srcset="" class="desktop-image">
+
+                    <!-- Mobile -->
+                    <img src="./images/mobile/image-deep-earth.jpg" alt="" srcset="" class="w-full md:hidden">
+
+                    <!-- Gradient -->
+                    <div class="gradient"></div>
+
+                    <!-- Text -->
+                    <h5>deep earth</h5>
+                </div>
+
+                <!-- Item-2 -->
+                <div class="item group">
+                    <!-- Desktop -->
+                    <img src="./images/desktop/image-night-arcade.jpg" alt="" srcset="" class="desktop-image">
+
+                    <!-- Mobile -->
+                    <img src="./images/mobile/image-night-arcade.jpg" alt="" srcset="" class="w-full md:hidden">
+
+                    <!-- Gradient -->
+                    <div class="gradient"></div>
+
+                    <!-- Text -->
+                    <h5>night arcade</h5>
+                </div>
+
+                <!-- Item-3 -->
+                <div class="item group">
+                    <!-- Desktop -->
+                    <img src="./images/desktop/image-soccer-team.jpg" alt="" srcset="" class="desktop-image">
+
+                    <!-- Mobile -->
+                    <img src="./images/mobile/image-soccer-team.jpg" alt="" srcset="" class="w-full md:hidden">
+
+                    <!-- Gradient -->
+                    <div class="gradient"></div>
+
+                    <!-- Text -->
+                    <h5>soccer team vr</h5>
+                </div>
+
+                <!-- Item-4 -->
+                <div class="item group">
+                    <!-- Desktop -->
+                    <img src="./images/desktop/image-grid.jpg" alt="" srcset="" class="desktop-image">
+
+                    <!-- Mobile -->
+                    <img src="./images/mobile/image-grid.jpg" alt="" srcset="" class="w-full md:hidden">
+
+                    <!-- Gradient -->
+                    <div class="gradient"></div>
+
+                    <!-- Text -->
+                    <h5>the grid</h5>
+                </div>
+            </div>
+
+            <!-- Container 2 -->
+            <div class="container-item">
+                <!-- Item-1 -->
+               <div class="item group">
+                    <!-- Desktop -->
+                    <img src="./images/desktop/image-from-above.jpg" alt="" srcset="" class="desktop-image">
+
+                    <!-- Mobile -->
+                    <img src="./images/mobile/image-from-above.jpg" alt="" srcset="" class="w-full md:hidden">
+
+                    <!-- Gradient -->
+                    <div class="gradient"></div>
+
+                    <!-- Text -->
+                    <h5>from up above vr</h5>
+                
+                </div>
+
+                <!-- Item-2 -->
+                <div class="item group">
+                    <!-- Desktop -->
+                    <img src="./images/desktop/image-night-arcade.jpg" alt="" srcset="" class="desktop-image">
+
+                    <!-- Mobile -->
+                    <img src="./images/mobile/image-pocket-borealis.jpg" alt="" srcset="" class="w-full md:hidden">
+
+                    <!-- Gradient -->
+                    <div class="gradient"></div>
+
+                    <!-- Text -->
+                    <h5>pocket borealis</h5>
+                </div>
+
+                <!-- Item-3 -->
+                <div class="item group">
+                    <!-- Desktop -->
+                    <img src="./images/desktop/image-curiosity.jpg" alt="" srcset="" class="desktop-image">
+
+                    <!-- Mobile -->
+                    <img src="./images/mobile/image-curiosity.jpg" alt="" srcset="" class="w-full md:hidden">
+
+                    <!-- Gradient -->
+                    <div class="gradient"></div>
+
+                    <!-- Text -->
+                    <h5>the curiosity</h5>
+                </div>
+
+                <!-- Item-4 -->
+                <div class="item group">
+                    <!-- Desktop -->
+                    <img src="./images/desktop/image-fisheye.jpg" alt="" srcset="" class="desktop-image">
+
+                    <!-- Mobile -->
+                    <img src="./images/mobile/image-fisheye.jpg" alt="" srcset="" class="w-full md:hidden">
+
+                    <!-- Gradient -->
+                    <div class="gradient"></div>
+
+                    <!-- Text -->
+                    <h5>make it fisheye</h5>
+                </div>
+            </div>
+ 
+    </section>
+
+    <!-- See all button -->
+
+    <div class="flex justify-center items-center mx-6 my-6 mb-32">
+        <button class="md:hidden btn w-full" >SEE ALL</button>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="bg-black">
+        <div class="flex flex-col md:flex-row max-w-6xl mx-auto px-4 py-6 pb-20 items-end justify-between">
+            <div class="flex flex-col space-y-6 text-white items-center md:items-start">
+                <img src="./images/logo.svg" alt="" class="max-w-sm">
+                <div class="flex flex-col md:flex-row font-sans font-bold space-y-6 md:space-y-0 md:space-x-6 justify-center items-center cursor-pointer">
+                    <!-- About -->
+                    <div class="flex flex-col group">
+                        <p>About</p>
+                        <div class="group-hover:border-b mx-2"></div>
+                    </div>
+
+                    <!-- Careers -->
+                    <div class="flex flex-col group">
+                        <p>Careers</p>
+                        <div class="group-hover:border-b mx-2"></div>
+                    </div>
+
+                    <!-- Events -->
+                    <div class="flex flex-col group">
+                        <p>Events</p>
+                        <div class="group-hover:border-b mx-2"></div>
+                    </div>
+
+                    <!-- Products -->
+                    <div class="flex flex-col group">
+                        <p>Products</p>
+                        <div class="group-hover:border-b mx-2"></div>
+                    </div>
+
+                    <!-- Support -->
+                    <div class="flex flex-col group">
+                        <p>Support</p>
+                        <div class="group-hover:border-b mx-2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social media logo -->
+            <div class="flex flex-col justify-between items-center md:items-start space-y-6">
+                <div class="flex pt-6  space-x-4 cursor-pointer">
+                    <img src="./images/icon-facebook.svg" alt="" srcset="" class="w-6 h-6">
+                    <img src="./images/icon-twitter.svg" alt="" srcset="" class="w-6 h-6">
+                    <img src="./images/icon-pinterest.svg" alt="" srcset="" class="w-6 h-6">
+                    <img src="./images/icon-instagram.svg" alt="" srcset="" class="w-6 h-6">
+                </div>
+                <div class="font-bold text-gray-600">
+                    &copy; 2022 Loopstudios. All Rights Reserved
+                  </div>
+            </div>
+        </div>
+    </footer>
+
+    
+
 </body>
-</html>
+</html> 
