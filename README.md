@@ -26,7 +26,7 @@
 
 ### 2nd
 
-![2nd](./images/screenshots/MN2.png)
+![2nd](./images/screenshots/M2.png)
 
 ### 3rd
 
