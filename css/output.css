@@ -438,6 +438,10 @@ h5 {
   }
 }
 
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -742,10 +746,6 @@ h5 {
 
 .flex-col {
   flex-direction: column;
-}
-
-.items-end {
-  align-items: flex-end;
 }
 
 .items-center {

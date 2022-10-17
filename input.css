@@ -86,3 +86,9 @@
   .open .hamburger-bottom {
     transform: rotate(-45deg) translateY(6px) translateX(-6px);
   }
+
+  @layer base {
+    html {
+      -webkit-tap-highlight-color: transparent;
+    }
+  }
